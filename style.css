@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Yellowtail|Quicksand');
+body
+{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+
+h1,h2,h3,h4
+{
+    font-family: 'Yellowtail', sans-serif;
+    color: hsl(16, 66%, 44%);
+}
+
+.btn
+{
+    background-color: rgb(248, 191, 44);
+    padding: 10px 25px;
+    color: hsl(16, 66%, 44%);
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, .25);
+    transition: background-color .15s ease-in-out;
+}
+
+.btn:hover
+{
+    background-color: hsl(43, 100%, 49%);
+}
+
+header
+{
+    font-family: 'Yellowtail', sans-serif;
+    background-color: hsl(60, 75%, 85%);
+    display: flex;
+    position: fixed;
+    padding: 5px;
+    width: 100vw;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .25);
+    height: 70px;
+}
+
+#logo
+{
+    justify-content: flex-start;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header img
+{
+    height: 35px;
+    width: 35px;
+    margin-bottom: -8px;
+}
+
+header nav
+{
+    margin-left: auto;
+    margin-right: 25px;
+    align-self: center;
+}
+
+header a
+{
+    color: hsl(16, 66%, 44%);
+    text-decoration: none;
+    margin: 15px;
+    font-size: 21.5px;
+    transition: color .15s ease-in-out;
+}
+
+header a:hover
+{
+    color: orange;
+}
+
+main
+{
+    padding-top: 100px;
+    margin: 0 30px;
+}
+
+#hero
+{
+    height: 500px;
+    width: 100%;
+    background: url("whitney-wright-356665-unsplash.jpg") no-repeat center;
+    background-size: cover;
+}
+
+#ingredients
+{
+    margin: 20px 0;
+}
+
+#video
+{
+    width: 100%;
+    margin: 40px 0px;
+}
+
+#video > iframe
+{
+    display: block;
+    width: 560px;
+    height: 315px;
+    margin: 20px auto;
+}
+
+#locations
+{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#locations > div
+{
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+#locations > h2
+{
+    display: block;
+    width: 100%;
+}
+
+#call2action
+{
+    text-align: center;
+    padding: 40px;
+}
+
+#
+
+footer
+{
+    padding: 20px;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    background-color: rgb(248, 191, 44);
+    color: hsl(16, 66%, 44%);
+}
+
+footer a
+{
+    color: hsl(16, 66%, 44%);
+    text-decoration: none;
+    margin: 0px 15px;
+    transition: color .15s ease-in-out;
+}
+
+footer a:hover
+{
+    color: white;
+}
+
+footer p
+{
+    margin-left: 15px;
+}
+
+#credits
+{
+    font-size: 11px;
+}
+
+#credits a
+{
+    color: white;
+    margin: 0;
+}
