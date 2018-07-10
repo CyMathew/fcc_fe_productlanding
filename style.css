@@ -166,7 +166,11 @@ main
 {
     width: 100%;
     margin: 20px 0px;
-    padding: 20px;
+}
+
+#howitsmade h2
+{
+    padding-left: 20px;
 }
 
 #video
